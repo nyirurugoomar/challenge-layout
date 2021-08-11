@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Big Shoulders Display";
+  font-weight: 400;
+  text-align: center;
+}
+img {
+  margin-bottom: 20px;
+}
+
+p {
+  color: white;
+  margin-bottom: 80%;
+  font-family: "Big Shoulders Display";
+  letter-spacing: 1%;
+}
+
+.layout-full {
+  display: flex;
+  margin: 10%;
+  background-color: white;
+}
+.layout-full div {
+  padding: 70px;
+  height: 500px;
+}
+
+.sedans {
+  flex: 1;
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 10px;
+}
+.suvs {
+  flex: 1;
+  background-color: hsl(184, 100%, 22%);
+}
+.lexury {
+  flex: 1;
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 10px;
+}
+.title {
+  color: white;
+  margin-bottom: 40px;
+  font-family: "Big Shoulders Display";
+}
+.cta {
+  padding: 10px 30px;
+  border-radius: 50rem;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  border: 1px white solid;
+  margin-bottom: 30%;
+}
+.cta:hover {
+  color: black;
+  background-color: white;
+}
+
+@media only screen and (max-width: 1007px) {
+  .layout-full {
+    flex-direction: column;
+  }
+}
